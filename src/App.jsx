@@ -4,7 +4,8 @@ import Features from "./component/Features"
 import Pricing from "./component/Pricing"
 import Testimonials from "./component/Testimonials"
 import Footer from "./component/Footer"
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
+
 
 function App(){
   const [scrolled, setScrolled] = useState(false);
